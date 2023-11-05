@@ -1,0 +1,79 @@
+body{
+    font-family: Agbalumo;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo{
+    border-radius: 60%;
+    width: 120px;
+    height: 120px;
+    border: solid gray;
+    border-width: 10px;
+
+}
+
+.logo2{
+    border-radius: 25px;
+    border: solid gray;
+    border-width: 10px;
+
+}
+
+li{
+    list-style-type: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding-bottom: 15px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+
+
+.leftlinks{
+    display: flex;
+    gap:2em;
+    margin-left: 400px;
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+}
+
+.website{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 2em;
+}
+
+h1{
+    text-align: start;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.hand{
+    font-weight: lighter;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
