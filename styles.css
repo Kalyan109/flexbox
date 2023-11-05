@@ -34,7 +34,7 @@ li{
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 .navbar{
@@ -75,6 +75,8 @@ h1{
     font-weight: lighter;
     font-size: 18px;
     color: #e5e7eb;
+    flex-wrap: wrap;
+    max-width: 500px;
 }
 
 /* header section end */
@@ -122,7 +124,7 @@ h2{
 
 .cat{
     border: solid #1a2f51   ;
-    border-radius: 20px;
+    border-radius: 60px;
     border-width:  5px;
 }
 
@@ -241,3 +243,13 @@ h2{
     align-items: center;
 }
 
+/* Last-section ENDS */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color:#1f2937 ;
+    color: #f9faf8;
+}
