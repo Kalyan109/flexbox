@@ -77,3 +77,65 @@ h1{
     color: #e5e7eb;
 }
 
+/* header section end */
+
+h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 30px; 
+}
+
+.team{
+    display: flex;
+     gap: 5px;
+    flex-direction: column;
+}
+
+.cats{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+     
+
+}
+
+.info{
+    display: flex;
+    max-width: 200px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #1f2937;
+     
+}
+
+.cat{
+    border: solid #3882f6;
+    border-radius: 20px;
+    border-width:  5px;
+}
+
+.belowcat{
+    text-align: center;
+    font-size: 15px;
+    color: #1f2937;
+    
+}
+
+.second-section{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    
+}
